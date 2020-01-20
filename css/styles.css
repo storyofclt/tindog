@@ -1,0 +1,179 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* heading */
+
+.big-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Montserrat-Black", sans-serif;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section {
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+#title {
+  /* #000 black */
+  text-align: left;
+}
+
+@media(max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* title section */
+#title .container-fluid {
+  padding: 3% 15%;
+  text-align: center;
+}
+
+/* title-image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* donwload button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* navagation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.35rem;
+  font-weight: 900;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+/* features section */
+#features {
+  z-index: 2;
+  position: relative;
+  background-color: #fff;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-image {
+  color: #ef8172;
+  padding-bottom: 1.5rem;
+}
+
+.feature-image:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  color: black;
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding: 2%;
+}
+
+/* testimonial-session */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+/* press-section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-images {
+  width: 12%;
+  margin: 20px 22px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.btn btn-dark {
+  margin-right: 20px;
+}
+
+.price-text {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* call for action */
+.cta-button {
+  margin: 37px 20px 27px 0;
+}
+
+/* footer section */
+.footer-image {
+  padding: 0 1% 2%;
+}
